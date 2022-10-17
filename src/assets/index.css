@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Poppins;
+    
+    
+}
+
+.contain{
+display: flex;
+}
+.contain h1{
+    font-size: 20px;
+    padding-top:27px;
+    padding-left: 27px;
+    color: white;
+}
+.contain .left-side{
+    width: 30%;
+    background-color: #0ca88c;
+    height: 100vh;
+}
+.contain .right-side{
+    width: 70%;
+    float: right;
+}
+.contain .right-side h1{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 72px;
+    color: #0ca88c;
+    margin-bottom: 12px;
+}
+.contain .right-side form{
+    
+    width: 45%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    
+}
+.contain .right-side form .row{
+    margin-left: 43px;    
+}
+.contain .right-side form .row label{
+    width: 50%;
+    color: black;
+    display: block;
+}
+.contain .right-side form .row input{
+    width:100%;
+    height: 50px;
+}
+.contain .right-side .chart{
+    padding-top: 150px;
+    margin-left: 130px;
+    width: 70%;
+    /* margin: auto; */
+}
+
+
+.contain .right-side .cards-board{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+}
+.contain .right-side .cards-board .card{
+    width: 26%;
+    height: 100px;
+    background-color: #0ca88c;
+    border-radius:11px; 
+    margin-top: 42px;
+    margin-left: 22px;
+}
+p{
+   color: white;
+   text-align: center;
+   padding-top: 23px;
+}
+
